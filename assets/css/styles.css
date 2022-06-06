@@ -70,3 +70,16 @@ body {
   color: var(--text-color);
   transition: 0.5s;
 }
+h1,
+h2,
+h3 {
+  font-weight: var(--font-semi-bold);
+  line-height: 1.5;
+  color: var(--title-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
