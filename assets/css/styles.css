@@ -83,3 +83,40 @@ ul {
 a {
   text-decoration: none;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  top: 0;
+  width: 100%;
+  left: 0;
+  position: fixed;
+  background-color: var(--body-color);
+  z-index: var(--z-fixed);
+  transition: 0.5s;
+}
+.container {
+  max-width: 968px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.nav {
+  display: flex;
+  height: var(--header-height);
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    background-color: var(--container-color);
+    box-shadow: 0 0 4px;
+    padding: 2.5rem 0;
+    width: 90%;
+    top: -100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
