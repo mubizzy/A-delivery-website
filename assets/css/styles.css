@@ -101,12 +101,15 @@ img {
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
-
+.grid {
+  display: grid;
+}
 .nav {
   display: flex;
   height: var(--header-height);
   justify-content: space-between;
   align-items: center;
+  flex-direction: ;
 }
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -129,4 +132,14 @@ img {
   flex-direction: column;
   row-gap: 1.5rem;
   align-items: center;
+}
+.nav__link,
+.nav__logo,
+.nav__toggle {
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+.nav__toggle {
+  font-size: 1.3rem;
+  cursor: pointer;
 }
