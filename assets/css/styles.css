@@ -206,3 +206,7 @@ img {
   font-weight: var(--font-bold);
   margin-bottom: var(--mb-0-75);
 }
+/* =====================BUTTONS=========================== */
+.button {
+  display: inline-block;
+}
