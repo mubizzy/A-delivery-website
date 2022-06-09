@@ -132,6 +132,7 @@ img {
 .grid {
   display: grid;
 }
+
 .nav {
   display: flex;
   height: var(--header-height);
@@ -190,9 +191,7 @@ img {
 .scroll-header {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
-.button__header {
-  display: none;
-}
+
 /*================== Home ==================== */
 .home__container {
   row-gap: 3rem;
@@ -209,4 +208,16 @@ img {
 /* =====================BUTTONS=========================== */
 .button {
   display: inline-block;
+  background-color: var(--first-color);
+  color: #1a1a1a;
+  padding: 0.75rem 1.5rem;
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
+  border-radius: 3rem;
+}
+.button__header {
+  display: none;
+}
+.button:hover {
+  background-color: var(--first-color-alt);
 }
