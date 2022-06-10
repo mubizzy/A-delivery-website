@@ -236,3 +236,14 @@ img {
 .security__data {
   text-align: center;
 }
+
+/* ========SERVICES========== */
+.services__container {
+  padding-top: 1rem;
+  row-gap: 1rem;
+}
+
+.services__data {
+  display: grid;
+  row-gap: 1rem;
+}
