@@ -260,3 +260,11 @@ img {
 }
 
 /* =======APP=========== */
+.app__container {
+  gap: 2.5rem;
+}
+.app__data {
+  display: grid;
+  row-gap: 1rem;
+  text-align: center;
+}
