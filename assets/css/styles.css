@@ -252,3 +252,11 @@ img {
   text-align: center;
   padding: 2rem 1.5rem;
 }
+
+.services__img {
+  width: 135px;
+  justify-self: center;
+  margin-bottom: var(--mb-0-5);
+}
+
+/* =======APP=========== */
