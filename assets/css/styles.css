@@ -275,3 +275,13 @@ img {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
 }
+
+/* =======CONTACT============ */
+
+.contact__container {
+  padding-bottom: 3rem;
+}
+
+.contact__description {
+  text-align: center;
+}
