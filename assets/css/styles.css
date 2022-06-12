@@ -93,13 +93,13 @@ img {
   padding: 4.5rem 0 1rem;
 }
 
-/* .section__title,
+.section__title,
 .section__title-center {
   font-size: var(--h2-font-size);
   color: var(--title-color);
   text-align: center;
   margin: var(--mb-1);
-} */
+}
 
 .svg__color {
   fill: var(--first-color);
