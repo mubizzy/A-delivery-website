@@ -264,7 +264,14 @@ img {
   gap: 2.5rem;
 }
 .app__data {
-  display: grid;
-  row-gap: 1rem;
   text-align: center;
+}
+.app__description {
+  margin-bottom: var(--mb-1-5);
+}
+.app__buttons {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
 }
