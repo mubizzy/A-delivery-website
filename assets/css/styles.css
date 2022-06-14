@@ -363,3 +363,12 @@ img {
   opacity: 0.8;
   transition: 0.4s;
 }
+
+.scrollup:hover {
+  background-color: var(--first-color);
+  opacity: 1;
+}
+.scrollup__icon {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
