@@ -372,3 +372,7 @@ img {
   font-size: 1.25rem;
   color: var(--title-color);
 }
+
+.show-scroll {
+  bottom: 3rem;
+}
