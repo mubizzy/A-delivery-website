@@ -337,3 +337,8 @@ img {
   display: flex;
   column-gap: 1.5rem;
 }
+
+.footer__social-link {
+  font-size: 1.25rem;
+  color: var(--title-color);
+}
