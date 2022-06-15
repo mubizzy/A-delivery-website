@@ -259,6 +259,11 @@ body.dark-theme {
 .button__icon {
   font-size: 1.5rem;
 }
+.button-link {
+  background: none;
+  padding: 0;
+  color: var(--title-color);
+}
 
 /* ============ABOUT====================== */
 .about__container {
@@ -485,5 +490,30 @@ body.dark-theme {
   .about__img,
   .app__img {
     order: -1;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 6rem 0 2rem;
+  }
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+  }
+  .nav__list {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  .change-theme {
+    position: initial;
+  }
+  .app__buttons {
+    justify-content: initial;
   }
 }
