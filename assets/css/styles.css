@@ -126,6 +126,20 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue), 4%, 24%);
 }
 
+/*========== Button Dark/Light ==========*/
+.change-theme {
+  position: absolute;
+  right: 1.5rem;
+  top: 2.2rem;
+  color: var(--title-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.dark-theme .footer {
+  background-color: var(--container-color);
+}
+
 /*=============== HEADER ===============*/
 .header {
   top: 0;
@@ -402,4 +416,24 @@ body.dark-theme {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-light);
+}
+
+/*============MEDIA QUERIES================ */
+/* Fro small devices */
+@media screen and (max-width: 360px) {
+  .svg__img {
+    width: 100%;
+  }
+
+  .section {
+    padding: 3rem 0 1rem;
+  }
+
+  .services__img {
+    width: 100%;
+  }
+
+  .app__buttons {
+    grid-template-columns: max-content;
+  }
 }
