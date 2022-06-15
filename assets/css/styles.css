@@ -447,16 +447,25 @@ body.dark-theme {
   }
   .home__container,
   .about__container,
-  .security__container {
+  .security__container,
+  .services__container,
+  .app__container,
+  .contact__container,
+  .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
   .home__img {
     order: 1;
   }
-  .home__container {
+  .home__container,
+  .about__container,
+  .security__container,
+  .app__container {
     align-items: center;
   }
-  .about__data {
+  .about__data,
+  .security__data,
+  .app__data {
     text-align: initial;
   }
   .about__img {
