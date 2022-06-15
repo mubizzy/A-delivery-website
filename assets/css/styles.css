@@ -249,6 +249,17 @@ body.dark-theme {
 .button:hover {
   background-color: var(--first-color-alt);
 }
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  padding: 0.75rem 1rem;
+}
+
+.button__icon {
+  font-size: 1.5rem;
+}
+
 /* ============ABOUT====================== */
 .about__container {
   gap: 1.5rem;
@@ -444,6 +455,7 @@ body.dark-theme {
   }
   .section__title-center {
     text-align: initial;
+    margin: 1.5rem auto;
   }
   .home__container,
   .about__container,
@@ -460,15 +472,18 @@ body.dark-theme {
   .home__container,
   .about__container,
   .security__container,
-  .app__container {
+  .app__container,
+  .contact__container {
     align-items: center;
   }
   .about__data,
   .security__data,
-  .app__data {
+  .app__data,
+  .contact__description {
     text-align: initial;
   }
-  .about__img {
+  .about__img,
+  .app__img {
     order: -1;
   }
 }
