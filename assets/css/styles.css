@@ -437,3 +437,29 @@ body.dark-theme {
     grid-template-columns: max-content;
   }
 }
+/* for medium devices */
+@media screen and (min-width: 576px) {
+  .svg__img {
+    width: 100%;
+  }
+  .section__title-center {
+    text-align: initial;
+  }
+  .home__container,
+  .about__container,
+  .security__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home__img {
+    order: 1;
+  }
+  .home__container {
+    align-items: center;
+  }
+  .about__data {
+    text-align: initial;
+  }
+  .about__img {
+    order: -1;
+  }
+}
