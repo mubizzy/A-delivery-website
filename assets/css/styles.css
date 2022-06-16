@@ -460,7 +460,7 @@ body.dark-theme {
   }
   .section__title-center {
     text-align: initial;
-    /* margin: 1.5rem auto; */
+    margin: 1.5rem auto;
   }
   .home__container,
   .about__container,
@@ -516,11 +516,6 @@ body.dark-theme {
   .app__buttons {
     justify-content: initial;
   }
-
-  /* .contact__container {
-    display: grid;
-    gap: 4rem;
-  } */
 }
 
 @media screen and (min-width: 968px) {
