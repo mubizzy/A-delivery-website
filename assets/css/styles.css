@@ -533,4 +533,10 @@ body.dark-theme {
   .about__container {
     gap: 6rem;
   }
+  .about__container,
+  .security__container,
+  .app__container,
+  .contact__container {
+    column-gap: 6rem;
+  }
 }
