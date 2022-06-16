@@ -539,4 +539,7 @@ body.dark-theme {
   .contact__container {
     column-gap: 6rem;
   }
+  .services__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
