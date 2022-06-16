@@ -458,9 +458,10 @@ body.dark-theme {
   .svg__img {
     width: 100%;
   }
-  .section__title-center {
+  .section__title-center,
+  .security__description {
     text-align: initial;
-    margin: 1.5rem auto;
+    /* margin: 1.5rem auto; */
   }
   .home__container,
   .about__container,
@@ -515,5 +516,21 @@ body.dark-theme {
   }
   .app__buttons {
     justify-content: initial;
+  }
+  /* .contact__container {
+    display: grid;
+    gap: 4rem;
+  } */
+}
+
+@media screen and (min-width: 968px) {
+  .button__header {
+    display: block;
+  }
+  .svg__img {
+    width: 470px;
+  }
+  .about__container {
+    gap: 6rem;
   }
 }
