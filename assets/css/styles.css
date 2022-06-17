@@ -401,7 +401,7 @@ body.dark-theme {
   bottom: -20%;
   display: inline-flex;
   padding: 0.3rem;
-  border-radius: 0.25rem;
+  border-radius: 50%;
   z-index: var(--z-tooltip);
   opacity: 0.8;
   transition: 0.4s;
