@@ -238,7 +238,7 @@ body.dark-theme {
   display: inline-block;
   background-color: var(--first-color);
   color: #1a1a1a;
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 2rem;
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
   border-radius: 3rem;
@@ -261,7 +261,7 @@ body.dark-theme {
 }
 .button-link {
   background: none;
-  padding: 0;
+
   color: var(--title-color);
 }
 
