@@ -113,16 +113,30 @@ const sr = ScrollReveal({
 sr.reveal(`.home`);
 sr.reveal(`home__img`, { delay: 500 });
 sr.reveal(`.about__container`, { delay: 600 });
-sr.reveal(`.profile__social`, { delay: 700 });
-sr.reveal(`.profile__info-group`, { interval: 100, delay: 700 });
-sr.reveal(`.profile__buttons`, { delay: 800 });
+sr.reveal(`.security__container`, { delay: 700 });
+sr.reveal(`.services,.services__description,.button-link`, {
+  interval: 100,
+  delay: 700,
+});
+sr.reveal(`.app__container,.button-flex`, {
+  interval: 100,
+  delay: 800,
+});
 
-sr.reveal(`.home__description,.n, .subscribe__description`, {
+sr.reveal(`.home__description, .security__description`, {
   origin: "left",
   delay: 500,
 });
 
-sr.reveal(`.about__description,.video__content`, {
+sr.reveal(`.about__description`, {
   origin: "right",
-  // interval: 100,
+});
+sr.reveal(`.app__description`, {
+  origin: "right",
+  delay: 900,
+});
+
+sr.reveal(`.contact__description`, {
+  origin: "left",
+  delay: 1000,
 });
