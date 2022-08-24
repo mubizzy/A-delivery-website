@@ -118,10 +118,13 @@ sr.reveal(`.services,.services__description,.button-link`, {
   interval: 100,
   delay: 700,
 });
-sr.reveal(`.app__container,.button-flex`, {
-  interval: 100,
-  delay: 800,
-});
+sr.reveal(
+  `.app__container,.button-flex,.contact__container,.footer__container`,
+  {
+    interval: 100,
+    delay: 800,
+  }
+);
 
 sr.reveal(`.home__description, .security__description`, {
   origin: "left",
